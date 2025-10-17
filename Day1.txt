@@ -1,0 +1,3 @@
+Read article about finops as code.
+
+https://devops.com/finops-as-code-unlocking-cloud-cost-optimization/
