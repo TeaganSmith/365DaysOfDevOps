@@ -1,0 +1,20 @@
+First tech: Vagrant
+
+Vagrant is a tool for building development environments. At a first glance the
+usage of a "Vagrantfile", which is how you seemingly define your dependencies and
+environment config, reminds me of how you would go about writing dockerfiles.
+(This docker comparison presumes you know a good gist of what docker does). 
+However, with big caveat that docker is on containers while Vagrant primarily
+focuses on virtual machines (which could in turn run docker as well).
+
+Vagrant seems to be useful when you want a builder of dev environments, but at a
+full OS-parity level. You're able to use multi-machine definitions and boxes so
+teammates / CI will always get identical environments. This seems to be a better use
+case for cross-OS SaaS development workflows, where you can test networking, ordering
+and dependencies locally, which safer pre-deployment experimentation. 
+
+Worth noting that vagrant seems to consume version 'boxes', similar to like a 
+VM image you would utilize for development, where you can then integrate ansible,
+puppet, chef, etc for further setup.  Vagrant also covers through older or more legacy
+distros compared to the success rate of containers in the same regard due to the ability
+to tweak kernel and OS settings. 
