@@ -1,0 +1,25 @@
+GitLab Duo:
+
+With my team adopting more gitlab duo usage, i wanted to dive into it and see the pros and cons of utilizing this tool,
+and sort of get a feel as to where I can count on it.
+
+Some of the features for enterprise includes deployment flexibility as well as allowing teams to utilize AI in deployment
+and innovation without sacrificing control over sensitive data, IP, etc. -- a pattern I've noticed in recent AI adoption 
+(e.c. amazon Q, copilot, etc.). 
+
+Gitlab Duo seems to have an aim to break past the security concerns that have been a barrier for AI adoption. I'm curious
+on future vulnerabilities to arise from exploiting said AI adoption. Could be a good research point in the future. 
+
+Gitlab Duo provides an LLM selection with deployment options, as well as granular control over data locality for residency
+regulations. We are also able to see full request and response logs. 
+
+Lambda cost efficiency:
+
+Did some further research into lambdas, diving into Graviton arm64 for a lower cost and better price-performance;
+
+(Self note - ask team about this)
+
+Analyze potential migration dependencies within our infrastructure and CI/CD. Analyze lambdas with AWS Compute Optimizer
+for memory size recommendations from production telemetry, and scale to reduce duration costs? We also can dive into AWS 
+Lambda Power Tuning state machine to empirically benchmark our cost vs latency across memory sizes, picking our optimal 
+power setting.
