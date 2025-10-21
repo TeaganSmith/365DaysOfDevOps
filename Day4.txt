@@ -1,0 +1,14 @@
+There was an AWS us-east-1 outage today, and a lot of companies were affected, so I want to take a chance to 
+dive into various deployment strategies that can prevent this, and what the caveats are of things like active-active
+deploys that caused companies not to adopt them prior to an incident like this. 
+
+First, a key premise of active-active deploys seems to be a requirement for the user request path to be stateless, with
+data replication handled asynchronously at the data tier, aka no cross-regional calls for user-facing paths. Even an active-passive
+deploy would require a lot of upfront investment and operational overhead, while maintaining the risk that the failover may not work,
+which seems to show that a lot of companies seem to prioritize velocity while accepting an occasional outage. A program
+like Rapid Rewards at Southwest Airlines could benefit from active-active as it utilizes a read-heavy workflow. E.c., there is 
+a major workload of simply serving lookups. Middleware layers are easy to make active-active as they are typically stateless. 
+
+I think despite this, seeing a company like Cursor go down, whom I can be fairly confident has a multi-region architecture, makes
+me wonder about the efficacy of multi-region deployments as a means of resiliency. If certain core workloads, even one, relies on 
+a specific regional service, it could still potentially open the entire software so a single PoF. 
