@@ -1,0 +1,11 @@
+This is less of a blog, and utilized today to read up on this weeks news. A lot of AI hype, random stuff going on.
+Not really sure how to write about this. Companies like Nvidia are using ai at a scary rate, borderline unsustainable in my opinion.
+Quantum chips and quantum computing seem to be getting stronger and stronger. Tech expansions are reaching the UAE / Saudi Arabia.
+Various bitcoin and crypto mining projects are migrating to ai infrastructure. As AI progresses, I foresee large power issues in
+the near future. Energy is definitely going to get more and more expensive, and there will need to be breakthroughs in energy usage 
+and /or development to keep up this rate. Neurotech is progressing at a rapid rate. New depression drugs / medications are being 
+funded at Alto Neuroscience. I'm extremely concern on the coming months / years of AI development. It is very clearly in a boom or
+bust point, where we will either reach highs that will set the new low, or we will have a worldwide 'dot com' burst once revenues
+are proven to not keep up with the investment and hype of these ai technologies. On a more positive note, google maps is able to power
+ai apps through the Gemini API much more efficiently. Snowflake and Palantir are partnering to integrate AI applications with their
+data platforms -- oh lord. 
