@@ -1,0 +1,13 @@
+DevOps - the differnece between DevOps in big-tech versus consuming companies.
+
+Something that has been interesting me lately, and something I'd like to expand on in the future, is the difference in DevOps
+workflows in big tech versus consuming companies like Southwest. At a base level, consuming company devops and cloud work is a
+lot more focused on using existing infra and understandings to increase efficiency at decreased costs and time. For example, 
+building a platform for infrastructure provisioning with improved CI/CD pipelines, makefiles to set up deployment environments 
+more efficiently, and expanding knowledge in tools like terraform, gitlab / jenkins, and cloud providers. You are essentially 
+aiming to utilize and assemble existing components and managing their configurations rather than building infrastructure primitives. 
+
+DevOps at a big tech company appears to involve much more platform-engineering esque workflows. Building internal tools to abstract
+infrastructure complexities, and being able to build and utilize specialized internal systems. However, these typically are only
+relevant at an extreme scale. Most companies seem to lack the engineering resources to maintain custom infrastructure, or the revenue /
+type of user base to even justify it in the first place. (Big tech needs customers after all). 
