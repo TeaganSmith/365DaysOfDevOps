@@ -1,1 +1,4 @@
-Diving into react today. little devops researh - T
+Diving into react today. little devops research - T
+
+Furthermore, I have stumbled upon a fantastic resource at https://roadmap.sh/devops, and i will dedicate the next week or more to diving
+into these various topics, and trying to build things utilizing them. Extremely intriguing.
