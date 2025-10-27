@@ -1,1 +1,3 @@
 Continuing work on a flight project and React practice.
+
+Also dove into ad few git rebasing to better understand it vs keepign separate commit trees.
