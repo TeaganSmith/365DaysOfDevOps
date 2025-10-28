@@ -1,0 +1,2 @@
+Today I will be diving into postman api and some of the various libraries around it
+like openapi code generator, optic, and api gateway integrations. 
