@@ -1,0 +1,1 @@
+Fragmenting out pipelines in gitlab and working on creating custom npm libraries.
