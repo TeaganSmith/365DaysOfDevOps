@@ -1,0 +1,7 @@
+Serverless - the hype, the craze, and everything in between. Yet, there are many issues. Serverless is both smooth,
+and clunky. Connecting workflows is difficult and weird, so weird that AWS makes money off of Step Functions
+where you are able to better orchestrate these varying work loads. My idea here is to try to create a declaritive
+based language that can define these workflows, for free. Similar to how terraform solved the major issue of 
+infrastructure as code, this would solve the issue of serverless orchestration as code. Things like adding in failover,
+async circuit breakers, and most impossibly, any sort of state, could potentially be resolved through the abstraction
+of such a thing. 
